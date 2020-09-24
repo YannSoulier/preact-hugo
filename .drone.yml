@@ -4,7 +4,10 @@ type: docker
 name: mon-pipeline-ci
     
 steps:
-  - name: hello-world
+  - name: preact-app
     image: lowess/preact-cli
     commands:
-      - npx preact-cli create YannSoulier/preact-hugo test
+      - preact create ${DRONE_REPO}#${DRONE_COMMIT} app
+      - cd app
+      - npm install
+      - npm run build
