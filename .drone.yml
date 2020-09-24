@@ -5,6 +5,6 @@ name: mon-pipeline-ci
     
 steps:
   - name: hello-world
-    image: busybox
+    image: lowess/preact-cli
     commands:
       - echo 'hello world'

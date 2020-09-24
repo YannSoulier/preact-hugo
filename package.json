@@ -63,7 +63,6 @@
     "whatwg-fetch": "^3.0.0"
   },
   "dependencies": {
-    "preact": "^10.1.0",
     "preact-render-to-string": "^5.1.2"
   },
   "resolutions": {
