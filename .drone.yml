@@ -14,5 +14,5 @@ steps:
   - name: slack
     image: plugins/slack
     settings:
-      webhook: hhttps://hooks.slack.com/services/T01AKKENDHC/B01C0UT4STS/HS98KVheqKSH7BVyZT2
+      webhook: https://hooks.slack.com/services/T01AKKENDHC/B01C0UT4STS/HS98KVheqKSH7BVyZT2
       channel: dev
